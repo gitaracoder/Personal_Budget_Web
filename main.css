@@ -260,6 +260,12 @@ a
 	margin-left: 20px;
 }
 
+.radioInput 
+{
+    display: inline-block;
+	width: 300px;
+}
+
 .radioInput fieldset
 {
     border: 0;
@@ -300,4 +306,25 @@ a
 	width: 225px;
 	margin: 0 auto;
 	margin-top: 30px;
+}
+
+.listInput
+{
+	display: inline-block;
+	margin-left: 20px;
+}
+
+.listInput select
+{
+	width: 300px;
+	background-color: #efefef;
+	color: #666;
+	border: 2px solid #ddd;
+	border-radius: 5px;
+	font-size: 20px;
+	padding: 10px;
+	box-sizing: border-box; 
+	outline: none;
+	margin-top: 10px;
+	margin-left: 20px;
 }
