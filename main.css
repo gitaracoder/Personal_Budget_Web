@@ -373,3 +373,23 @@ a
 	color: #128870;
 	margin-top: 20px;
 }
+
+.menuButtonsPanel
+{
+	float: left;
+	margin-left: 20px;
+}
+
+.startPageButtons
+{
+	width: 250px;
+	height: 40px;
+	background-color: #c34f4f;
+	margin-bottom: 20px;
+	text-align: center;
+	font-size: 30px;
+	padding: 15px;
+	color: white;
+	margin-left: 10px;
+	border-radius: 5px;
+}
