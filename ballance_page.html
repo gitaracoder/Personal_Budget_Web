@@ -1,0 +1,97 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	
+	<title>Personal Budget - Aplikacja do zarządzania Budżetem Osobistym</title>
+	
+	<meta name="description" content="Aplikacja do zarządzania budżetem osobistym. Rozpocznij kontrolę nad wydatkami, zacznij oszczędzać." />
+	<meta name="keywords" content="oszczędzanie, zarabianie, budżet, kontrola, wydatki, przychody, ewidencja" />
+	
+	<link rel="stylesheet" href="main.css" type="text/css"/>
+	<link rel="stylesheet" href="css/fontello.css" type="text/css"/>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&amp;subset=latin-ext" rel="stylesheet">
+	
+	<script type="text/javascript" src="chart.js"></script>
+	
+</head>
+
+<body>
+	<header>
+		<div id="baner">
+			<div id="mainBaner">
+				<h1>Personal Budget</h1>
+			</div>
+			<div id="subBaner">
+				<h3>Aplikacja do zarządzania Budżetem Osobistym</h3>
+			</div>
+		</div>
+		<nav id="topnav">
+			<ul id="mainMenu">
+				<li><a href="#">Strona główna</a></li>
+				<li><a href="#">Dodaj przychód</a></li>
+				<li><a href="#">Dodaj wydatek</a></li>
+				<li><a href="#">Przeglądaj bilans</a></li>
+				<li><a href="#">Ustawienia</a></li>
+				<li><a href="#">Wyloguj</a></li>
+			</ul>
+		</nav>
+	</header>
+	
+	<div class="container">
+		<main>
+			<article>
+				<div class="wraper">
+					<header>
+						<h1>Bilans</h1>
+					</header>
+					<form>
+						<div class="listInput">
+							<div class="inputDescription">
+								Okres bilansu:
+							</div>
+							<label for="silnik"></label>
+							<select id="silnik">
+								<option value="1">Bieżący miesiąc</option>
+								<option value="2">Poprzedni miesiąc</option>
+								<option value="3">Bieżący rok</option>
+								<option value="4">Niestandardowy</option>
+							</select>
+						</div>
+					</form>
+					<div class="listing">
+						<div class="table">
+							Zestawienie przychodów
+						</div>
+						Suma przychodów za okres:
+					</div>
+					<div class="listing">
+						<div class="table">
+							Zestawienie wydatków
+						</div>
+						Suma wydatków za okres:
+					</div>
+					<div style="clear: both;"></div>
+					<div class="chart">
+						Diagram rozkładu wydatków
+						<div id="chartContainer" style="height: 370px; max-width: 920px; margin: 0px auto; margin-bottom: 30px; margin-top: 20px;"></div>
+					</div>
+					<div class="balanceComment">
+						Gratulacje. Świetnie zarządzasz finansami!
+					</div>
+				</div>	
+			</article>
+		</main>
+	</div>
+		
+	<footer>
+		<div class="info">
+			Personal Budget &copy Wszelkie prawa zastrzeżone 2020
+		</div>
+	</footer>
+	
+	<script type="text/javascript" src="https://canvasjs.com/assets/script/jquery-1.11.1.min.js"></script>  
+	<script type="text/javascript" src="https://canvasjs.com/assets/script/jquery.canvasjs.min.js"></script>	
+</body>
+</html>

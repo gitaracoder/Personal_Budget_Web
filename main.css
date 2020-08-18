@@ -90,17 +90,24 @@ h1
 	margin-left: auto;
 	margin-right: auto;
 	width: 1000px;
+	overflow: hidden;
+	background-color: #dedede;
+	margin-top: 20px;
+	padding: 20px;
 }
 
 .right
 {
 	float: left;
 	width: 220px;
-	margin-top: 20px;
+	
 	padding: 20px;
 	text-align: justify;
 	background-color: lightgray;
-	height: 500px;
+	
+	overflow:hidden;
+	padding-bottom: 20000px;
+	margin-bottom: -20000px;
 }
 
 .left
@@ -110,8 +117,11 @@ h1
 	padding: 20px;
 	text-align: justify;
 	background-color: #dedede;
-	margin-top: 20px;
-	height: 500px;
+	
+	
+	overflow:hidden;
+	padding-bottom: 20000px;
+	margin-bottom: -20000px;
 }
 
 .homePageButtons
@@ -235,6 +245,7 @@ input[type=submit]:hover
 	-webkit-box-shadow: 3px 3px 30px 5px rgba(204,204,204,0.9);
 	-moz-box-shadow: 3px 3px 30px 5px rgba(204,204,204,0.9);
 	box-shadow: 3px 3px 30px 5px rgba(204,204,204,0.9);
+	margin-bottom: 30px;
 }
 
 a
@@ -306,6 +317,7 @@ a
 	width: 225px;
 	margin: 0 auto;
 	margin-top: 30px;
+	margin-bottom: 30px;
 }
 
 .listInput
@@ -327,4 +339,37 @@ a
 	outline: none;
 	margin-top: 10px;
 	margin-left: 20px;
+}
+
+.table
+{
+	width: 458px;
+	border: 1px dashed #0a2b42;
+	margin-top: 20px;
+	margin-right: 20px;
+	height: 350px;
+}
+
+.wraper
+{
+	padding: 20px;
+}
+
+.listing
+{
+	float: left;
+}
+
+.chart
+{
+	text-align: center;
+	margin-top: 30px;
+}
+
+.balanceComment
+{
+	text-align: center;
+	font-size: 36px;
+	color: #128870;
+	margin-top: 20px;
 }
