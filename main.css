@@ -13,6 +13,12 @@ h1
 	margin: 0;
 }
 
+h3
+{
+	font-weight: 400;
+	margin: 0;
+}
+
 #baner
 {
 	color: white;
@@ -35,15 +41,11 @@ h1
 #subBaner h3
 {
 	font-size: 24px;
-	font-weight: 400;
-	margin: 0;
 }
 
 #mainBaner h1
 {
 	font-size: 60px;
-	font-weight: 400;
-	margin: 0;
 }
 
 #mainMenu
@@ -100,11 +102,9 @@ h1
 {
 	float: left;
 	width: 220px;
-	
 	padding: 20px;
 	text-align: justify;
 	background-color: lightgray;
-	
 	overflow:hidden;
 	padding-bottom: 20000px;
 	margin-bottom: -20000px;
@@ -117,8 +117,6 @@ h1
 	padding: 20px;
 	text-align: justify;
 	background-color: #dedede;
-	
-	
 	overflow:hidden;
 	padding-bottom: 20000px;
 	margin-bottom: -20000px;
@@ -159,7 +157,6 @@ h1
 	color: black;
 	text-align: center;
 	font-size: 40px;
-	
 }
 
 #date
@@ -392,4 +389,9 @@ a
 	color: white;
 	margin-left: 10px;
 	border-radius: 5px;
+}
+
+.startPageButtons:hover
+{
+	background-color: #d45f5f;
 }
